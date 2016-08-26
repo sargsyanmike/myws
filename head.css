@@ -1,0 +1,130 @@
+body {
+	background-image: url(image/body.jpg);
+	background-attachment: fixed;
+	background-attachment: fixed !important;
+    background-size: cover !important;
+	text-align: justify;
+	font-family: Trebuchet MS;
+}
+
+nav {
+	float: left;
+	z-index: auto;
+	position: fixed;
+	left: 0;
+	top: 70px;
+	background-color: rgba(8,52,88,0.6);
+	border: 1px solid  rgba(8,52,88,0.1);
+	width: 300px;
+	height: 200px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	color: skyblue;
+}
+
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+}
+.nav li ul li {
+    overflow:hidden;
+    max-height:0;
+    -webkit-transition:max-height 500ms ease;
+    -moz-transition:max-height 500ms ease;
+    -o-transition:max-height 500ms ease;
+    transition:max-height 500ms ease;
+}
+.nav ul > li:hover ul li {
+    max-height:150px;
+}
+
+hr {
+	border: 1px doted white;
+}
+
+main {
+	background-color: rgba(8,52,88,0.3);
+	border: 2px solid rgba(8,52,88,0.6);
+	border-radius: 40px 20px 20px 40px;
+	
+}
+
+main span {
+	height: 200px;
+	weight: 400px;
+}
+
+main img {
+	/*position: relative;
+	left: 900px;
+	z-index: 5;
+	height: 150px;
+	width: 100px;*/
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+
+#foot {
+	height: 360px;
+	margin: 10px;
+}
+
+label {
+	font-family: forte;
+	font-size: 17px;
+	color: #000;
+}
+
+#test label {
+	font-size: 16px;
+	color: white;
+	font-family: Trebuchet MS;
+}
+
+#footSpan {
+	margin-top: 20px;
+}
+
+textarea {
+	width: 700px;
+	height: 200px;
+	border-radius: 20px;
+	background-image: url("http://wall.wallrage.com/wp-content/uploads/Batman-Logo-Free-Download-HD-Wallpapers-728x450.jpg");
+	color: white;
+	font-family: comic sans ms;
+	margin-left: 10em;
+}
+
+button {
+	border-style: none;
+	background-color: rgba(8,52,88,0.8);
+	color: white;
+	padding: 10px;
+	margin-left: 20px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+
+td {
+	border: 2px solid rgba(8,52,88,0.6);
+	background-color: rgba(8,52,88,0.6);
+	padding: 5px;
+}
+
+
+
+
+
+
